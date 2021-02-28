@@ -1,0 +1,151 @@
+@font-face {
+    font-family: forest;
+    src: url(quigleywiggly/forest.woff);
+}
+
+body {
+    background-image: url(imgs/background.jpg);
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#website {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(000, 000, 000, 0.5);
+    padding-top: 10px;
+    
+}
+
+
+#title {
+    width: 100px;
+    height: 100px;
+    color: forestgreen;
+    font-family: forest;
+    height: 150px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: -20px;
+    user-select: none;
+    
+}
+
+
+mark {
+    color: forestgreen;
+    background-color: #d7fae0;
+}
+
+#pinetrees-bottom {
+    margin-top: -20px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#menu-div {
+    margin-top: 50px;
+    color: #d7fae0;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(215, 250, 224, 0.2);
+    padding-left: 40px;
+    padding-top: 5px;
+    height: 60px;
+    text-shadow: 2px 2px black;
+}
+
+#welcome-img {
+    margin-top: -12px;
+    padding-top: 20px;
+    background-image: url(imgs/forest.jpg);
+    padding-bottom: 200px;
+    }
+
+
+#welcome-msg {
+    margin-top: 10px;
+    color: #d7fae0;
+    background-color: rgba(20, 111, 78, 0.8);
+    width: 80%;
+    margin-left: 10%;
+    padding: 0px 10px 10px 10px;
+    user-select: none;
+}
+
+.menu-link {
+  text-decoration: none;
+    color: #d7fae0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-link:hover {
+    color: black;
+    text-shadow: 2px 2px rgb(28,111,78);
+}
+
+#msg-title {
+    font-family: forest;
+    font-size: 40px;
+}
+
+.img {
+    width: 300px;
+    height: 350px;
+    border: 10px solid black;
+}
+
+.img:hover {
+    border: 10px solid #034D1B;
+}
+
+#gallery-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: #000;
+    margin-left: 350px;
+    font-size: 30px;
+    background-color: #034D1B;
+    width: 330px;
+}
+
+#grid-gallery {
+    grid-template-columns: repeat(3, 1fr); 
+    margin: 0 auto;
+    padding-left: 150px;
+    background-color: rgba(000, 000, 000, 0.65);
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+.column {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:1200px) {
+    #grid-gallery {grid-template-columns: repeat(3, 1fr);}
+}
+
+#music-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: #000;
+    margin-left: 550px;
+    font-size: 30px;
+    background-color: #034D1B;
+    width: 170px;
+    text-align: center;
+}
